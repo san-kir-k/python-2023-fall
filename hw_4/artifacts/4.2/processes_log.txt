@@ -1,0 +1,216 @@
+Trying to integrate function with n_jobs=1
+[2023-12-10 16:32:26.183279] : Task 0 started
+[2023-12-10 16:32:26.287939] : All tasks done!
+Result is 1.0000007853979547
+Total time n_jobs=1: 0.2600560188293457
+
+Trying to integrate function with n_jobs=2
+[2023-12-10 16:32:26.428729] : Task 1 started
+[2023-12-10 16:32:26.428771] : Task 0 started
+[2023-12-10 16:32:26.484296] : All tasks done!
+Result is 1.000000785397997
+Total time n_jobs=2: 0.1952378749847412
+
+Trying to integrate function with n_jobs=3
+[2023-12-10 16:32:26.626749] : Task 2 started
+[2023-12-10 16:32:26.626603] : Task 1 started
+[2023-12-10 16:32:26.626795] : Task 0 started
+[2023-12-10 16:32:26.665454] : All tasks done!
+Result is 1.0000007853955013
+Total time n_jobs=3: 0.18312811851501465
+
+Trying to integrate function with n_jobs=4
+[2023-12-10 16:32:26.814038] : Task 0 started
+[2023-12-10 16:32:26.814133] : Task 1 started
+[2023-12-10 16:32:26.814273] : Task 2 started
+[2023-12-10 16:32:26.816924] : Task 3 started
+[2023-12-10 16:32:26.845664] : All tasks done!
+Result is 1.0000007853979587
+Total time n_jobs=4: 0.18163299560546875
+
+Trying to integrate function with n_jobs=5
+[2023-12-10 16:32:27.018537] : Task 0 started
+[2023-12-10 16:32:27.029120] : Task 1 started
+[2023-12-10 16:32:27.029189] : Task 3 started
+[2023-12-10 16:32:27.029494] : Task 2 started
+[2023-12-10 16:32:27.044117] : Task 4 started
+[2023-12-10 16:32:27.086504] : All tasks done!
+Result is 1.00000078539796
+Total time n_jobs=5: 0.27687883377075195
+
+Trying to integrate function with n_jobs=6
+[2023-12-10 16:32:27.472923] : Task 0 started
+[2023-12-10 16:32:27.484840] : Task 3 started
+[2023-12-10 16:32:27.485310] : Task 2 started
+[2023-12-10 16:32:27.487644] : Task 1 started
+[2023-12-10 16:32:27.493477] : Task 4 started
+[2023-12-10 16:32:27.504316] : Task 5 started
+[2023-12-10 16:32:27.550609] : All tasks done!
+Result is 1.0000007853732908
+Total time n_jobs=6: 0.45559000968933105
+
+Trying to integrate function with n_jobs=7
+[2023-12-10 16:32:27.767698] : Task 0 started
+[2023-12-10 16:32:27.769897] : Task 1 started
+[2023-12-10 16:32:27.776325] : Task 2 started
+[2023-12-10 16:32:27.777015] : Task 3 started
+[2023-12-10 16:32:27.785486] : Task 4 started
+[2023-12-10 16:32:27.788609] : Task 5 started
+[2023-12-10 16:32:27.793105] : Task 6 started
+[2023-12-10 16:32:27.816448] : All tasks done!
+Result is 1.0000007853954882
+Total time n_jobs=7: 0.2525050640106201
+
+Trying to integrate function with n_jobs=8
+[2023-12-10 16:32:28.031654] : Task 0 started
+[2023-12-10 16:32:28.033944] : Task 3 started
+[2023-12-10 16:32:28.034811] : Task 1 started
+[2023-12-10 16:32:28.037885] : Task 2 started
+[2023-12-10 16:32:28.043594] : Task 7 started
+[2023-12-10 16:32:28.044028] : Task 4 started
+[2023-12-10 16:32:28.045538] : Task 5 started
+[2023-12-10 16:32:28.054342] : Task 6 started
+[2023-12-10 16:32:28.077031] : All tasks done!
+Result is 1.0000007853979578
+Total time n_jobs=8: 0.272233247756958
+
+Trying to integrate function with n_jobs=9
+[2023-12-10 16:32:28.338890] : Task 2 started
+[2023-12-10 16:32:28.339526] : Task 1 started
+[2023-12-10 16:32:28.340948] : Task 0 started
+[2023-12-10 16:32:28.347085] : Task 3 started
+[2023-12-10 16:32:28.354840] : Task 4 started
+[2023-12-10 16:32:28.356913] : Task 5 started
+[2023-12-10 16:32:28.360917] : Task 7 started
+[2023-12-10 16:32:28.365117] : Task 6 started
+[2023-12-10 16:32:28.372018] : Task 8 started
+[2023-12-10 16:32:28.398863] : All tasks done!
+Result is 1.0000007853954878
+Total time n_jobs=9: 0.32686376571655273
+
+Trying to integrate function with n_jobs=10
+[2023-12-10 16:32:28.697413] : Task 0 started
+[2023-12-10 16:32:28.721039] : Task 3 started
+[2023-12-10 16:32:28.728883] : Task 4 started
+[2023-12-10 16:32:28.730082] : Task 2 started
+[2023-12-10 16:32:28.728394] : Task 1 started
+[2023-12-10 16:32:28.742240] : Task 6 started
+[2023-12-10 16:32:28.754559] : Task 5 started
+[2023-12-10 16:32:28.767258] : Task 8 started
+[2023-12-10 16:32:28.767927] : Task 7 started
+[2023-12-10 16:32:28.775229] : Task 9 started
+[2023-12-10 16:32:28.801493] : All tasks done!
+Result is 1.0000007853979547
+Total time n_jobs=10: 0.42154526710510254
+
+Trying to integrate function with n_jobs=11
+[2023-12-10 16:32:29.086112] : Task 0 started
+[2023-12-10 16:32:29.093972] : Task 1 started
+[2023-12-10 16:32:29.103859] : Task 4 started
+[2023-12-10 16:32:29.117983] : Task 2 started
+[2023-12-10 16:32:29.119614] : Task 8 started
+[2023-12-10 16:32:29.122217] : Task 5 started
+[2023-12-10 16:32:29.126420] : Task 3 started
+[2023-12-10 16:32:29.144188] : Task 7 started
+[2023-12-10 16:32:29.146184] : Task 6 started
+[2023-12-10 16:32:29.155155] : Task 9 started
+[2023-12-10 16:32:29.157965] : Task 10 started
+[2023-12-10 16:32:29.181890] : All tasks done!
+Result is 1.0000007853954875
+Total time n_jobs=11: 0.37641191482543945
+
+Trying to integrate function with n_jobs=12
+[2023-12-10 16:32:29.436704] : Task 0 started
+[2023-12-10 16:32:29.456646] : Task 1 started
+[2023-12-10 16:32:29.460473] : Task 3 started
+[2023-12-10 16:32:29.473207] : Task 2 started
+[2023-12-10 16:32:29.478167] : Task 8 started
+[2023-12-10 16:32:29.481658] : Task 4 started
+[2023-12-10 16:32:29.487414] : Task 6 started
+[2023-12-10 16:32:29.492387] : Task 5 started
+[2023-12-10 16:32:29.494137] : Task 11 started
+[2023-12-10 16:32:29.494421] : Task 7 started
+[2023-12-10 16:32:29.496237] : Task 10 started
+[2023-12-10 16:32:29.503391] : Task 9 started
+[2023-12-10 16:32:29.523262] : All tasks done!
+Result is 1.0000007853732813
+Total time n_jobs=12: 0.33500218391418457
+
+Trying to integrate function with n_jobs=13
+[2023-12-10 16:32:29.785029] : Task 0 started
+[2023-12-10 16:32:29.785574] : Task 1 started
+[2023-12-10 16:32:29.792014] : Task 4 started
+[2023-12-10 16:32:29.795536] : Task 5 started
+[2023-12-10 16:32:29.798735] : Task 6 started
+[2023-12-10 16:32:29.806242] : Task 7 started
+[2023-12-10 16:32:29.808986] : Task 8 started
+[2023-12-10 16:32:29.809530] : Task 3 started
+[2023-12-10 16:32:29.811747] : Task 2 started
+[2023-12-10 16:32:29.825170] : Task 9 started
+[2023-12-10 16:32:29.825609] : Task 12 started
+[2023-12-10 16:32:29.829194] : Task 10 started
+[2023-12-10 16:32:29.840417] : Task 11 started
+[2023-12-10 16:32:29.857407] : All tasks done!
+Result is 1.0000007853954873
+Total time n_jobs=13: 0.3352038860321045
+
+Trying to integrate function with n_jobs=14
+[2023-12-10 16:32:30.130549] : Task 3 started
+[2023-12-10 16:32:30.131034] : Task 2 started
+[2023-12-10 16:32:30.159697] : Task 1 started
+[2023-12-10 16:32:30.160839] : Task 0 started
+[2023-12-10 16:32:30.160329] : Task 4 started
+[2023-12-10 16:32:30.162805] : Task 5 started
+[2023-12-10 16:32:30.167122] : Task 8 started
+[2023-12-10 16:32:30.169922] : Task 9 started
+[2023-12-10 16:32:30.180164] : Task 11 started
+[2023-12-10 16:32:30.180670] : Task 12 started
+[2023-12-10 16:32:30.182103] : Task 13 started
+[2023-12-10 16:32:30.196410] : Task 6 started
+[2023-12-10 16:32:30.197164] : Task 7 started
+[2023-12-10 16:32:30.197863] : Task 10 started
+[2023-12-10 16:32:30.217830] : All tasks done!
+Result is 1.0000007853091313
+Total time n_jobs=14: 0.364793062210083
+
+Trying to integrate function with n_jobs=15
+[2023-12-10 16:32:30.507309] : Task 0 started
+[2023-12-10 16:32:30.549492] : Task 1 started
+[2023-12-10 16:32:30.552223] : Task 2 started
+[2023-12-10 16:32:30.556430] : Task 6 started
+[2023-12-10 16:32:30.557019] : Task 5 started
+[2023-12-10 16:32:30.555004] : Task 4 started
+[2023-12-10 16:32:30.555122] : Task 3 started
+[2023-12-10 16:32:30.573779] : Task 8 started
+[2023-12-10 16:32:30.574377] : Task 7 started
+[2023-12-10 16:32:30.576600] : Task 9 started
+[2023-12-10 16:32:30.590390] : Task 10 started
+[2023-12-10 16:32:30.593368] : Task 12 started
+[2023-12-10 16:32:30.602746] : Task 14 started
+[2023-12-10 16:32:30.622693] : Task 11 started
+[2023-12-10 16:32:30.624540] : Task 13 started
+[2023-12-10 16:32:30.642756] : All tasks done!
+Result is 1.0000007852622501
+Total time n_jobs=15: 0.43305301666259766
+
+Trying to integrate function with n_jobs=16
+[2023-12-10 16:32:30.936708] : Task 0 started
+[2023-12-10 16:32:30.941059] : Task 2 started
+[2023-12-10 16:32:30.940915] : Task 1 started
+[2023-12-10 16:32:30.958055] : Task 6 started
+[2023-12-10 16:32:30.961103] : Task 4 started
+[2023-12-10 16:32:30.970779] : Task 8 started
+[2023-12-10 16:32:30.974870] : Task 7 started
+[2023-12-10 16:32:30.982137] : Task 5 started
+[2023-12-10 16:32:30.987537] : Task 10 started
+[2023-12-10 16:32:30.993708] : Task 13 started
+[2023-12-10 16:32:30.994082] : Task 12 started
+[2023-12-10 16:32:30.994014] : Task 14 started
+[2023-12-10 16:32:30.996015] : Task 3 started
+[2023-12-10 16:32:31.009702] : Task 9 started
+[2023-12-10 16:32:31.019319] : Task 11 started
+[2023-12-10 16:32:31.020244] : Task 15 started
+[2023-12-10 16:32:31.037453] : All tasks done!
+Result is 1.000000785397955
+Total time n_jobs=16: 0.397777795791626
+

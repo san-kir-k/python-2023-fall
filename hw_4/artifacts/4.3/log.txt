@@ -1,0 +1,15 @@
+(venv) ak@MacBook-Air-AK 4.3 % python3 main.py
+FIRST
+[A   ] : [2023-12-10 18:32:58.632355] : String "FIRST" received from main process
+SECOND
+[A   ] : [2023-12-10 18:33:03.633267] : String "first" sent to B process
+[A   ] : [2023-12-10 18:33:03.633386] : String "SECOND" received from main process
+[B   ] : [2023-12-10 18:33:03.633433] : String "first" received from A process
+[B   ] : [2023-12-10 18:33:03.635436] : String "svefg" sent to main process
+[MAIN] : [2023-12-10 18:33:03.635536] : Encodded string rceived: "svefg"
+[A   ] : [2023-12-10 18:33:08.638630] : String "second" sent to B process
+[B   ] : [2023-12-10 18:33:08.638693] : String "second" received from A process
+[B   ] : [2023-12-10 18:33:08.638842] : String "frpbaq" sent to main process
+[MAIN] : [2023-12-10 18:33:08.638929] : Encodded string rceived: "frpbaq"
+[A   ] : [2023-12-10 18:33:12.984316] : String "None" received from main process
+[B   ] : [2023-12-10 18:33:12.984556] : String "None" received from A process

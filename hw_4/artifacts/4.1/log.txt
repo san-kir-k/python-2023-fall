@@ -1,0 +1,3 @@
+Synchronous run (10 times): 7.858530044555664
+Multithreading run (10 threads, 10 times): 7.886117696762085
+Multiprocessing run (10 processes, 10 times): 1.5398190021514893

@@ -1,0 +1,48 @@
+(venv) ak@MacBook-Air-AK src % python3 main.py ../artifacts/test1.txt
+       1       0       1 ../artifacts/test1.txt
+(venv) ak@MacBook-Air-AK src % wc ../artifacts/test1.txt             
+       1       0       1 ../artifacts/test1.txt
+(venv) ak@MacBook-Air-AK src % wc                                    
+
+       1       0       1
+(venv) ak@MacBook-Air-AK src % python3 main.py                       
+
+       1       0       0 
+(venv) ak@MacBook-Air-AK src % python3 main.py
+
+       1       0       1 
+(venv) ak@MacBook-Air-AK src % wc             
+adsasf
+sd asd
+b b b b
+
+a
+       5       8      25
+(venv) ak@MacBook-Air-AK src % python3 main.py
+adsasf
+sd asd
+b b b b
+
+a
+       5       8      25
+(venv) ak@MacBook-Air-AK src % diff <(python3 main.py ../artifacts/test1.txt ../artifacts/test2.txt) <(wc ../artifacts/test1.txt ../artifacts/test2.txt)
+(venv) ak@MacBook-Air-AK src % python3 main.py ../artifacts/test1.txt ../artifacts/test2.tx
+       1       0       1 ../artifacts/test1.txt
+wc: ../artifacts/test2.tx: open: No such file or directory
+       1       0       1 total
+(venv) ak@MacBook-Air-AK src % wc ../artifacts/test1.txt ../artifacts/test2.tx
+       1       0       1 ../artifacts/test1.txt
+wc: ../artifacts/test2.tx: open: No such file or directory
+       1       0       1 total
+(venv) ak@MacBook-Air-AK src % python3 main.py ../artifacts/test1.txt ../artifacts/test2.txt
+       1       0       1 ../artifacts/test1.txt
+       9      18      61 ../artifacts/test2.txt
+      10      18      62 total
+(venv) ak@MacBook-Air-AK src % wc ../artifacts/test1.txt ../artifacts/test2.txt            
+       1       0       1 ../artifacts/test1.txt
+       9      18      61 ../artifacts/test2.txt
+      10      18      62 total
+(venv) ak@MacBook-Air-AK src % python3 main.py ../artifacts/test2.txt
+       9      18      61 ../artifacts/test2.txt
+(venv) ak@MacBook-Air-AK src % wc ../artifacts/test2.txt 
+       9      18      61 ../artifacts/test2.txt
